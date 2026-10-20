@@ -37,6 +37,7 @@ project {
 
 object Tw101745fusSyncBuild : BuildType({
     name = "TW-101745 FUS sync build"
+    description = "TW-101745: build configuration edited in UI to verify two-way sync"
 })
 
 object T : Template({
