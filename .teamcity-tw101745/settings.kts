@@ -26,7 +26,7 @@ To debug in IntelliJ Idea, open the 'Maven Projects' tool window (View
 version = "2026.1"
 
 project {
-    description = "Isolated manual verification of versioned settings FUS counters and states. Created 2026-10-20."
+    description = "Isolated manual verification of versioned settings FUS counters and states. Created 2026-10-20. Two-way sync project edit verified."
 
     pipeline(Tw101745fusServerPipeline)
 }
