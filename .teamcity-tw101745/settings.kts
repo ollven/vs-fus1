@@ -26,6 +26,10 @@ To debug in IntelliJ Idea, open the 'Maven Projects' tool window (View
 version = "2026.1"
 
 project {
+    subProject(Project {
+        id("FusInheritedState")
+        name = "TW-101745 FUS — inherited state"
+    })
     params { password("fus.test.secret", "credentialsJSON:3cf4b9b7-b7c9-493b-8b6f-a7ffea53d3f1") }
     description = "TW-101745 context parameter: " + DslContext.getParameter("fus.used")
 
