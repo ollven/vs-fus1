@@ -31,11 +31,18 @@ project {
     template(T)
 
     pipeline(Tw101745fusServerPipeline)
+
+    subProject(TW101745FUSIsolatedModes)
 }
 
 object T : Template({
     name = "TW-101745 FUS sync template"
     description = "Template for two-way synchronization telemetry"
+})
+
+
+object TW101745FUSIsolatedModes : Project({
+    name = "TW-101745 FUS — isolated modes"
 })
 
 
