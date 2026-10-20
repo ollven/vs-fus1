@@ -28,7 +28,14 @@ version = "2026.1"
 project {
 
     pipeline(Tw101745fusServerOnly)
+
+    subProject(TW101745FUSRootAndFormatReconfiguration)
 }
+
+
+object TW101745FUSRootAndFormatReconfiguration : Project({
+    name = "TW-101745 FUS — root and format reconfiguration"
+})
 
 
 object Tw101745fusServerOnly : Pipeline({
