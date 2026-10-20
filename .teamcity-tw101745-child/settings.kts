@@ -41,5 +41,3 @@ object Tw101745fusServerOnly_Job1 : Job({
     id("Job1")
     name = "FUS save verification"
 })
-
-error("TW-101745 intentional DSL apply failure")
