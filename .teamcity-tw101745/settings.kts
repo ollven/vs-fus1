@@ -28,10 +28,16 @@ version = "2026.1"
 project {
     description = "Isolated manual verification of versioned settings FUS counters and states. Created 2026-10-20. Two-way sync project edit verified."
 
+    buildType(Tw101745fusSyncBuild)
+
     template(T)
 
     pipeline(Tw101745fusServerPipeline)
 }
+
+object Tw101745fusSyncBuild : BuildType({
+    name = "TW-101745 FUS sync build"
+})
 
 object T : Template({
     name = "TW-101745 FUS sync template"
